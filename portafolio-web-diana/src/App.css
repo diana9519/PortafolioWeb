@@ -14,7 +14,7 @@ body {
 /* Estilos del menú */
 nav {
   background-color: black;
-  width: 200px; /* Ancho del menú */
+  width: 230px; /* Ancho del menú */
   padding-top: 20px;
 }
 
@@ -28,6 +28,7 @@ li {
   padding: 10px 20px;
   cursor: pointer;
   color: hotpink; /* Color del texto en rosa neon */
+  font-weight: bold; /* Hace que el texto esté en negrita */
   transition: color 0.3s ease; /* Transición suave al cambiar de color */
 }
 
@@ -38,5 +39,33 @@ li:hover {
 /* Estilos para el contenido */
 .content {
   flex: 1;
-  padding: 20px;
+  padding: 50px;
+}
+
+/* Estilos generales para el menú y la imagen */
+.menu {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.menu-header {
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Media query para ajustar la imagen en pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .profile-image {
+    width: 100px;
+    height: 100px;
+  }
 }
