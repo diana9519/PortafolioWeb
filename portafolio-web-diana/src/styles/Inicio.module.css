@@ -1,0 +1,50 @@
+/* Estilos del background de Inicio */
+.InicioBackground {
+  height: 100vh;
+  background: linear-gradient(to bottom right, #ff85e8, #b37feb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+}
+
+/* Estilos del contenido inicial de Inicio */
+.InicioContent {
+  text-align: center;
+
+  h1 {
+    font-size: 3em;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: white;
+      color: #b37feb;
+    }
+  }
+}
+
+/* Estilos específicos del botón de Inicio */
+.InicioStartButton {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+
+  &:hover {
+    background-color: darkred;
+  }
+}
