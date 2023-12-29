@@ -1,50 +1,57 @@
 /* Estilos del background de Inicio */
 .InicioBackground {
   height: 100vh;
-  background: linear-gradient(to bottom right, #ff85e8, #b37feb);
+  background: linear-gradient(to bottom right, #5de0f0, #f7a6f5,#c973ff);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  color: white;
+  color: rgb(0, 0, 0);
+  font-family: 'Monaco', monospace;
+  font-size: 24px; /* Tamaño del texto */
+  font-weight: bold;
 }
 
 /* Estilos del contenido inicial de Inicio */
 .InicioContent {
   text-align: center;
-
-  h1 {
-    font-size: 3em;
-  }
-
-  button {
-    padding: 10px 20px;
-    font-size: 1.5em;
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
-    border-radius: 5px;
-    cursor: pointer;
-
-    &:hover {
-      background-color: white;
-      color: #b37feb;
-    }
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Estilos específicos del botón de Inicio */
+/* Estilos de la imagen */
+.InicioImageContainer {
+  margin-top: 50px; /* Espacio entre la imagen y el texto */
+}
+
+.InicioImage {
+  width: 300px; /* Tamaño de la imagen */
+}
+
+/* Estilos del texto y botón */
+.InicioTextContainer {
+  margin-top: 20px; /* Espacio entre el texto y el botón */
+}
+
 .InicioStartButton {
-  background-color: red;
-  color: white;
+  background-color: #fe9900;
+  color: #333;
+  font-size: 18px; /* Tamaño del texto */
+  font-weight: bold;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
+  transition: transform 0.3s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Agrega una sombra al botón */
+  transition: box-shadow 0.3s ease; 
 
   &:hover {
-    background-color: darkred;
+    background-color: #fe9900;
+    transform: scale(1.5);
+    box-shadow: 0px 6px 15px #5de0f0;
   }
 }
