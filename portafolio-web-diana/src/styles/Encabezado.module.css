@@ -1,0 +1,36 @@
+/* Estilos para el título */
+.titleContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem; /* Reduje el margen inferior */
+  }
+  
+  .titleLine {
+    height: 4rem; /* Altura de la línea vertical */
+    width: 5px; /* Ancho de la línea vertical */
+    background-color: hotpink;
+    margin-right: 1rem; /* Espacio entre la línea y el título */
+  }
+  
+  .titleText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw; /* Tamaño de la fuente para el título en unidades vw */
+  }
+  
+  /* Estilos para el nombre */
+  .name {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3vw; /* Tamaño de la fuente más grande para el nombre en unidades vw */
+    margin-bottom: 1rem; /* Reduje el espacio después del nombre */
+  }
+  
+  /* Estilos para los párrafos */
+  header p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6vw; /* Tamaño de la fuente para los párrafos en unidades vw */
+    line-height: 1.6;
+    margin-bottom: 1.5rem; /* Espacio inferior entre párrafos */
+  }
+  
+
+  

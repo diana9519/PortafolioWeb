@@ -6,6 +6,7 @@
   height: 100%;
   background-color: antiquewhite;
   
+  
 }
 
 /* Estilos del menú de MainContent */
@@ -14,7 +15,9 @@
   flex: 1;
   padding-top: 50px;
   padding-left: 20px;
-  color: hotpink; /* Color de las letras rosa neon */
+  color: hotpink; 
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Estilos de los elementos de la lista del menú */

@@ -1,0 +1,43 @@
+/* Estilos para las habilidades */
+.skills-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .skill-category {
+    margin-bottom: 30px;
+  }
+  
+  .skill-category h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .skills-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
+  }
+  
+  .skill {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .skill img {
+    width: 150px; /* Ajusta el tamaño de las imágenes según sea necesario */
+    height: 200px;
+    object-fit: contain; /* Para asegurar que la imagen se ajuste al contenedor */
+    border-radius: 50%; /* Para hacer las imágenes redondas */
+    margin-bottom: 10px;
+  }
+  
+  .skill p {
+    font-size: 16px;
+    margin: 0;
+  }
+  
