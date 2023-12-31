@@ -41,3 +41,10 @@
     margin: 0;
   }
   
+/* Habilidades.module.css */
+
+.small-image {
+  width: 50px; /* Define el ancho deseado para las imágenes */
+  height: 50px; /* Define la altura deseada para las imágenes */
+  /* Puedes ajustar los valores de width y height según el tamaño que desees */
+}
