@@ -27,7 +27,7 @@ const Habilidades = () => {
       <div className={styles.titleContainer}>
           <div className={styles.titleLine}></div>
           <h1 className={styles.titleText}>Mis Habilidades</h1>
-        </div>
+      </div>
       <div className={styles['table-container']}>
         <table className={styles['skills-table']}>
           <tbody>

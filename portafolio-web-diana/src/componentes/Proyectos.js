@@ -1,7 +1,6 @@
-// Proyectos.js
 import React, { useState } from 'react';
 import styles from '../styles/Proyectos.module.css';
-import DetalleProyecto from './DetalleProyecto'; // Importa el componente de detalles
+import DetalleProyecto from './DetalleProyecto'; 
 import proyecto1 from '../assets/proyectos/proyecto1.png';
 import proyecto2 from '../assets/proyectos/proyecto2.png';
 import proyecto3 from '../assets/proyectos/proyecto3.png';
