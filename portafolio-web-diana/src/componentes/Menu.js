@@ -3,7 +3,7 @@ import styles from '../styles/Menu.module.css'; // Importa los estilos modulares
 import Encabezado from './Encabezado';
 import Proyectos from './Proyectos';
 import Habilidades from './Habilidades';
-import EnlacesExternos from './EnlacesExternos';
+import MasInfo from './MasInfo';
 import imgDiana from '../assets/imgDiana.png'; // Importa la imagen desde la carpeta de assets
 
 const MainContent = () => {
@@ -24,7 +24,7 @@ const MainContent = () => {
             <li onClick={() => mostrarSeccion('inicio')}>Inicio</li>
             <li onClick={() => mostrarSeccion('proyectos')}>Proyectos</li>
             <li onClick={() => mostrarSeccion('habilidades')}>Habilidades</li>
-            <li onClick={() => mostrarSeccion('enlacesExternos')}>Enlaces Externos</li>
+            <li onClick={() => mostrarSeccion('info')}>Más Información</li>
           </ul>
         </nav>
       </div>
@@ -33,7 +33,7 @@ const MainContent = () => {
         {seccionActual === 'inicio' && <Encabezado />}
         {seccionActual === 'proyectos' && <Proyectos />}
         {seccionActual === 'habilidades' && <Habilidades />}
-        {seccionActual === 'enlacesExternos' && <EnlacesExternos />}
+        {seccionActual === 'info' && <MasInfo />}
       </div>
     </div>
   );

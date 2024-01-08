@@ -11,11 +11,11 @@
 
 /* Estilos del menú de MainContent */
 .Menu {
-  background-color: black; /* Fondo negro para el menú */
+  background: linear-gradient(to bottom right, #5de0f0, #f7a6f5,#c973ff); /* Fondo negro para el menú */
   flex: 1;
   padding-top: 50px;
   padding-left: 20px;
-  color: hotpink; 
+  color: rgb(0, 0, 0); 
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
 }
@@ -35,7 +35,7 @@
 }
 
 .Menu li:hover {
-  color: pink; /* Cambio de color al pasar el ratón por encima */
+  color: rgb(121, 75, 221); /* Cambio de color al pasar el ratón por encima */
 }
 
 /* Estilos del contenido */

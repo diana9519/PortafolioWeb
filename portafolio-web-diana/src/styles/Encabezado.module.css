@@ -20,7 +20,7 @@
   /* Estilos para el nombre */
   .name {
     font-family: 'Roboto', sans-serif;
-    font-size: 3vw; /* Tamaño de la fuente más grande para el nombre en unidades vw */
+    font-size: 2vw; /* Tamaño de la fuente más grande para el nombre en unidades vw */
     margin-bottom: 1rem; /* Reduje el espacio después del nombre */
   }
   
@@ -30,6 +30,9 @@
     font-size: 1.6vw; /* Tamaño de la fuente para los párrafos en unidades vw */
     line-height: 1.6;
     margin-bottom: 1.5rem; /* Espacio inferior entre párrafos */
+  }
+  .paragraphText {
+    text-align: justify;
   }
   
 

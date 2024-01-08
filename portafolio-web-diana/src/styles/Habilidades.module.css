@@ -1,7 +1,26 @@
-/* Estilos para las habilidades */
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem; /* Reduje el margen inferior */
+}
+
+.titleLine {
+  height: 4rem; /* Altura de la línea vertical */
+  width: 5px; /* Ancho de la línea vertical */
+  background-color: hotpink;
+  margin-right: 1rem; /* Espacio entre la línea y el título */
+}
+
+.titleText {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vw; /* Tamaño de la fuente para el título en unidades vw */
+}
+
 .skills-container {
     text-align: center;
     margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
   }
   
   .skill-category {
