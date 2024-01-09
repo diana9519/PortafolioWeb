@@ -23,10 +23,22 @@
   }
   
   .skills-table {
-
+    border-collapse: collapse; /* Colapsar los bordes de la tabla */
+    width: 100%; /* Ancho total de la tabla */
+    background-color: white;
     font-size: 1.2vw;
   }
 
+  .skills-table td {
+    border: 3px solid black; /* Bordes negros de 1px para las celdas */
+    padding: 8px; /* Espaciado interno de las celdas */
+  }
+  
+  /* Estilo para los títulos de las filas */
+  .skills-table td:first-child {
+    font-weight: bold; /* Texto en negrita para los títulos */
+    background-color: rgb(111, 105, 105); /* Fondo gris claro para los títulos */
+  }
 
 
 .small-image {
