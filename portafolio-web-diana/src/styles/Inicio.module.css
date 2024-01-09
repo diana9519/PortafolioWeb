@@ -1,13 +1,13 @@
 /* Estilos del background de Inicio */
 .InicioBackground {
   height: 100vh;
-  background: linear-gradient(to bottom right, #5de0f0, #f7a6f5,#c973ff);
+  background: linear-gradient(to bottom right, #00e1ff, #ff3dfc, #9d00ff);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: 'Monaco', monospace;
   font-size: 24px; /* Tamaño del texto */
   font-weight: bold;
