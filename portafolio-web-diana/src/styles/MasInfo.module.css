@@ -1,42 +1,38 @@
-/* MasInfo.module.css */
 .masInfoContainer {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .titleContainer {
-    display: flex;
-    align-items: center;
-    margin-bottom: 2rem;
-  }
-  
-  .titleLine {
-    height: 4rem;
-    width: 5px;
-    background-color: hotpink;
-    margin-right: 1rem;
-  }
-  
-  .titleText {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.3vw;
-  }
-  
-  .masInfoLinks {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px; /* Añade un margen inferior para separar el correo electrónico */
-  }
-  
-  .logo {
-    width: 100px;
-    margin: 0 10px;
-  }
-  
-  .emailText {
-    margin-top: 10px; /* Espaciado entre las redes sociales y el correo electrónico */
-  }
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
 
-  
-  
+.titleContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.titleLine {
+  height: 4rem;
+  width: 5px;
+  background-color: hotpink;
+  margin-right: 1rem;
+}
+
+.titleText {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.3vw;
+}
+
+.masInfoLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  margin: 0 10px;
+}
+
+.emailText {
+  margin-top: 10px;
+}

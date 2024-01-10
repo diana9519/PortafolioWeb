@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Habilidades.module.css"; // Importa el archivo de estilos Sass de habilidades
+import styles from "../styles/Habilidades.module.css";
 import angularImage from "../assets/herramientas/angular.png";
 import bootstrapImage from "../assets/herramientas/bootstrap.png";
 import cssImage from "../assets/herramientas/css.png";
@@ -33,14 +33,18 @@ const Habilidades = () => {
             <tr>
               <td>Tecnologías de Estructura y Diseño Web</td>
               <td>
-                <a href="https://html5.org" target="_blank" rel="noreferrer" >
+                <a href="https://html5.org" target="_blank" rel="noreferrer">
                   <img
                     src={htmlImage}
                     alt="HTML"
                     className={styles["small-image"]}
                   />
                 </a>
-                <a href="https://desarrolloweb.com/home/css" target="_blank" rel="noreferrer">
+                <a
+                  href="https://desarrolloweb.com/home/css"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src={cssImage}
                     alt="CSS"
@@ -52,38 +56,50 @@ const Habilidades = () => {
             <tr>
               <td>Lenguajes de Programación</td>
               <td>
-                <a href="https://www.java.com/es/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.java.com/es/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src={javaImage}
                     alt="Java"
                     className={styles["small-image"]}
                   />
                 </a>
-
-                <a href="https://www.javascript.com" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.javascript.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src={jsImage}
                     alt="JavaScript"
                     className={styles["small-image"]}
                   />
                 </a>
-
-                <a href="https://www.python.org" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.python.org"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src={pythonImage}
                     alt="Python"
                     className={styles["small-image"]}
                   />
                 </a>
-
-                <a href="https://www.microsoft.com/es-es/sql-server/sql-server-downloads" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.microsoft.com/es-es/sql-server/sql-server-downloads"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src={sqlserverImage}
                     alt="SQL Server"
                     className={styles["small-image"]}
                   />
                 </a>
-
                 <a href="https://www.php.net" target="_blank" rel="noreferrer">
                   <img
                     src={phpImage}
@@ -103,8 +119,11 @@ const Habilidades = () => {
                     className={styles["small-image"]}
                   />
                 </a>
-
-                <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
+                <a
+                  href="https://getbootstrap.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src={bootstrapImage}
                     alt="Bootstrap"
@@ -123,7 +142,6 @@ const Habilidades = () => {
                     className={styles["small-image"]}
                   />
                 </a>
-
                 <a href="https://github.com" target="_blank" rel="noreferrer">
                   <img
                     src={githubImage}
@@ -131,31 +149,39 @@ const Habilidades = () => {
                     className={styles["small-image"]}
                   />
                 </a>
-
-                <a href="https://gitlab.com/gitlab-com" target="_blank" rel="noreferrer">
+                <a
+                  href="https://gitlab.com/gitlab-com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src={gitlabImage}
                     alt="GitLab"
                     className={styles["small-image"]}
                   />
                 </a>
-
-                <a href="https://www.jetbrains.com/es-es/idea/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.jetbrains.com/es-es/idea/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src={ijideaImage}
                     alt="IntelliJ IDEA"
                     className={styles["small-image"]}
                   />
                 </a>
-
-                <a href="https://netbeans.apache.org/front/main/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://netbeans.apache.org/front/main/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src={netbeansImage}
                     alt="NetBeans"
                     className={styles["small-image"]}
                   />
                 </a>
-
                 <a href="https://staruml.io" target="_blank" rel="noreferrer">
                   <img
                     src={startumlImage}
@@ -163,16 +189,22 @@ const Habilidades = () => {
                     className={styles["small-image"]}
                   />
                 </a>
-
-                <a href="https://code.visualstudio.com" target="_blank" rel="noreferrer">
+                <a
+                  href="https://code.visualstudio.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src={vscodeImage}
                     alt="Visual Studio Code"
                     className={styles["small-image"]}
                   />
                 </a>
-
-                <a href="https://visualstudio.microsoft.com/es/vs/community/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://visualstudio.microsoft.com/es/vs/community/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src={vscomImage}
                     alt="Visual Studio Community"
@@ -184,7 +216,11 @@ const Habilidades = () => {
             <tr>
               <td>Plataformas</td>
               <td>
-                <a href="https://firebase.google.com/?hl=es" target="_blank" rel="noreferrer">
+                <a
+                  href="https://firebase.google.com/?hl=es"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src={firebaseImage}
                     alt="Firebase"
@@ -196,7 +232,11 @@ const Habilidades = () => {
             <tr>
               <td>Sistemas Operativos</td>
               <td>
-                <a href="https://www.microsoft.com/es-pa/" target="_blank" rel="noreferrer">
+                <a
+                  href="https://www.microsoft.com/es-pa/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src={windowsImage}
                     alt="Windows"

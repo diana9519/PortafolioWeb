@@ -1,27 +1,24 @@
-/* Estilos del contenedor principal */
-
 .MainContainer {
   display: flex;
   width: 100%;
   height: 100%;
-  background-color: antiquewhite; 
+  background-color: antiquewhite;
 }
 
 .Menu {
   background: rgb(0, 0, 0);
   flex: 1;
-  padding-top: 20px; /* Reducción del padding superior */
+  padding-top: 20px;
   padding-left: 20px;
   color: #7fccff;
   font-size: 18px;
   font-family: 'Roboto', sans-serif;
-  min-width: 200px; /* Define un ancho mínimo para el menú */
-  max-width: 25%; /* Define un ancho máximo para el menú */
-  overflow-y: auto; /* Agrega scroll vertical cuando se requiera */
-  height: calc(100vh - 20px); /* Calcula la altura restante de la ventana para el menú */
+  min-width: 200px;
+  max-width: 25%;
+  overflow-y: auto;
+  height: calc(100vh - 20px);
 }
 
-/* Estilos de los elementos de la lista del menú */
 .Menu ul {
   list-style: none;
   padding: 0;
@@ -36,19 +33,18 @@
 }
 
 .Menu li:hover {
-  color: #c973ff; /* Cambio de color al pasar el ratón por encima */
+  color: #c973ff;
 }
 
-/* Estilos del contenido */
 .MenuContent {
   flex: 6;
   padding: 50px;
   background: linear-gradient(to bottom right, #00e1ff, #ff3dfc, #9d00ff);
 }
-.menuImage {
-  width: 80%; /* Ancho deseado */
-  height: 80%; /* Altura deseada */
-  border-radius: 50%; /* Hace que la imagen sea redonda */
-  margin-bottom: 20px; /* Espacio bajo la imagen */
-}
 
+.menuImage {
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}

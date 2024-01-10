@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react';
-import styles from '../styles/Inicio.module.css'; // Importa los estilos modulares específicos para Inicio
-import pcImage from './../assets/prog.gif';
-import Menu from './Menu';
+import React, { useState, useEffect } from "react";
+import styles from "../styles/Inicio.module.css";
+import pcImage from "./../assets/prog.gif";
+import Menu from "./Menu";
 
 const Inicio = () => {
   const [mostrarMenu, setMostrarMenu] = useState(false);
-  const [textToShow, setTextToShow] = useState('');
-  const text = 'Soy Diana Pinchao ...';
-  const delay = 100; // Puedes ajustar la velocidad de la animación
-  const pauseTime = 2000; // Tiempo de pausa entre animaciones (en milisegundos)
+  const [textToShow, setTextToShow] = useState("");
+  const text = "Soy Diana Pinchao ...";
+  const delay = 100;
+  const pauseTime = 2000;
 
   useEffect(() => {
     let i = 0;
@@ -48,10 +48,18 @@ const Inicio = () => {
         <div className={styles.InicioContent}>
           <h1>{textToShow}</h1>
           <div className={styles.InicioImageContainer}>
-            <img id="pc" src={pcImage} alt="Pc" className={styles.InicioImage} />
+            <img
+              id="pc"
+              src={pcImage}
+              alt="Pc"
+              className={styles.InicioImage}
+            />
           </div>
           <div className={styles.InicioTextContainer}>
-            <button className={styles.InicioStartButton} onClick={handleRedirect}>
+            <button
+              className={styles.InicioStartButton}
+              onClick={handleRedirect}
+            >
               Empezar
             </button>
           </div>

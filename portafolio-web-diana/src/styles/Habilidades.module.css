@@ -1,48 +1,43 @@
-
 .titleContainer {
   display: flex;
   align-items: center;
-  margin-bottom: 2rem; /* Reduje el margen inferior */
+  margin-bottom: 2rem;
 }
 
 .titleLine {
-  height: 4rem; /* Altura de la línea vertical */
-  width: 5px; /* Ancho de la línea vertical */
+  height: 4rem;
+  width: 5px;
   background-color: hotpink;
-  margin-right: 1rem; /* Espacio entre la línea y el título */
+  margin-right: 1rem;
 }
 
 .titleText {
   font-family: 'Roboto', sans-serif;
-  font-size: 2.3vw; /* Tamaño de la fuente para el título en unidades vw */
+  font-size: 2.3vw;
 }
 
 .skills-container {
+  font-family: 'Roboto', sans-serif;
+}
 
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  .skills-table {
-    border-collapse: collapse; /* Colapsar los bordes de la tabla */
-    width: 100%; /* Ancho total de la tabla */
-    background-color: white;
-    font-size: 1.2vw;
-  }
+.skills-table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+  font-size: 1.2vw;
+}
 
-  .skills-table td {
-    border: 3px solid black; /* Bordes negros de 1px para las celdas */
-    padding: 8px; /* Espaciado interno de las celdas */
-  }
-  
-  /* Estilo para los títulos de las filas */
-  .skills-table td:first-child {
-    font-weight: bold; /* Texto en negrita para los títulos */
-    background-color: rgb(111, 105, 105); /* Fondo gris claro para los títulos */
-  }
+.skills-table td {
+  border: 3px solid black;
+  padding: 8px;
+}
 
+.skills-table td:first-child {
+  font-weight: bold;
+  background-color: rgb(111, 105, 105);
+}
 
 .small-image {
-  width: 50px; /* Define el ancho deseado para las imágenes */
-  height: 50px; /* Define la altura deseada para las imágenes */
-  /* Puedes ajustar los valores de width y height según el tamaño que desees */
+  width: 50px;
+  height: 50px;
 }

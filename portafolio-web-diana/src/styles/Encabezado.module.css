@@ -1,78 +1,73 @@
-
 .titleContainer {
-    display: flex;
-    align-items: center;
-    margin-bottom: 2rem;
-  }
-  
-  .titleLine {
-    height: 4rem; 
-    width: 5px; 
-    background-color: hotpink;
-    margin-right: 1rem; 
-  }
-  
-  .titleText {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.3vw; 
-  }
-  
-  .name {
-    font-family: 'Roboto', sans-serif;
-    font-size: 2vw; 
-    margin-bottom: 1rem; 
-  }
-  
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
 
-  header p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.1vw; 
-    line-height: 1.6;
-    margin-bottom: 1.5rem; 
-  }
-  .paragraphText {
-    text-align: justify;
-  }
-  .paragraphContainer {
-    display: flex;
-    align-items: center;
-  }
-  
- 
+.titleLine {
+  height: 4rem;
+  width: 5px;
+  background-color: hotpink;
+  margin-right: 1rem;
+}
+
+.titleText {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.3vw;
+}
+
+.name {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2vw;
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1vw;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.paragraphText {
+  text-align: justify;
+}
+
+.paragraphContainer {
+  display: flex;
+  align-items: center;
+}
+
+.profileImage {
+  width: 80vw;
+  height: 20vw;
+  margin: 20px;
+}
+
+@media (max-width: 768px) {
   .profileImage {
-    width: 80vw;
-    height: 20vw;
-    margin: 20px;
-  }
-  
-  @media (max-width: 768px) {
-    
-  
-    
-    .profileImage {
-      width: 150px;
-      height: 100px;
-      margin-left: 10px;
-      margin-right: 10px;
-      order: 1;
-    }
-    
-  header p {
-    font-size: 1.5vw; 
-  }
-  .paragraphContainer {
-    flex-direction: column; 
-  }
-  }
-  
-  @media (max-width: 1500px) {
-    .profileImage {
-      order: -1; 
-      margin-left: 0; 
-      margin-right: 0; 
-      width: 50%; 
-      height: auto; 
-    }
+    width: 150px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    order: 1;
   }
 
-  
+  header p {
+    font-size: 1.5vw;
+  }
+
+  .paragraphContainer {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1500px) {
+  .profileImage {
+    order: -1;
+    margin-left: 0;
+    margin-right: 0;
+    width: 50%;
+    height: auto;
+  }
+}

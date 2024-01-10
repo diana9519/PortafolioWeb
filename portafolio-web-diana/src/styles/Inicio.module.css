@@ -1,4 +1,3 @@
-/* Estilos del background de Inicio */
 .InicioBackground {
   height: 100vh;
   background: linear-gradient(to bottom right, #00e1ff, #ff3dfc, #9d00ff);
@@ -9,11 +8,10 @@
   position: relative;
   color: rgb(255, 255, 255);
   font-family: 'Monaco', monospace;
-  font-size: 24px; /* Tamaño del texto */
+  font-size: 24px;
   font-weight: bold;
 }
 
-/* Estilos del contenido inicial de Inicio */
 .InicioContent {
   text-align: center;
   display: flex;
@@ -21,24 +19,22 @@
   align-items: center;
 }
 
-/* Estilos de la imagen */
 .InicioImageContainer {
-  margin-top: 50px; /* Espacio entre la imagen y el texto */
+  margin-top: 50px;
 }
 
 .InicioImage {
-  width: 300px; /* Tamaño de la imagen */
+  width: 300px;
 }
 
-/* Estilos del texto y botón */
 .InicioTextContainer {
-  margin-top: 20px; /* Espacio entre el texto y el botón */
+  margin-top: 20px;
 }
 
 .InicioStartButton {
   background-color: #fe9900;
   color: #333;
-  font-size: 18px; /* Tamaño del texto */
+  font-size: 18px;
   font-weight: bold;
   border: none;
   padding: 10px 20px;
@@ -46,8 +42,8 @@
   cursor: pointer;
   margin-top: 20px;
   transition: transform 0.3s ease;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Agrega una sombra al botón */
-  transition: box-shadow 0.3s ease; 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
 
   &:hover {
     background-color: #fe9900;
