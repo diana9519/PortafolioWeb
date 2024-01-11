@@ -59,7 +59,7 @@ const DetalleProyecto = ({ proyecto, onClose }) => {
 
   const informacionProyecto4 = {
     descripcion:
-      "sistema de facturación electrónica integral y confiable que automatice y agilice los procesos de facturación, garantizando la validez legal de los documentos generados yoptimizando la gestión financiera de la empresa.",
+      "Sistema de facturación electrónica integral y confiable que automatiza y agiliza los procesos de facturación, garantizando la validez legal de los documentos generados y optimizando la gestión financiera de la empresa.",
     herramientas: [
       "TypeScript",
       "HTML",
