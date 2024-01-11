@@ -7,7 +7,7 @@ const Encabezado = () => {
       <header className={styles.header}>
         <div className={styles.titleContainer}>
           <div className={styles.titleLine}></div>
-          <h1 className={styles.titleText}>Acerca de mí</h1>
+          <h1 className={styles.titleText}>Diana Pinchao</h1>
         </div>
 
         <main className={styles.content}>
@@ -18,7 +18,7 @@ const Encabezado = () => {
               className={styles.profileImage}
             />
             <div className={styles.paragraphText}>
-              <h2 className={styles.name}>Diana Pinchao</h2>
+              <h2 className={styles.name}>Desarrolladora Frontend</h2>
               <p>
                 Soy una desarrolladora de software con un enfoque especial en
                 diseño de interfaces y desarrollo web. Me siento inspirada por

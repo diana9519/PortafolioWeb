@@ -23,7 +23,7 @@
 .skills-table {
   border-collapse: collapse;
   width: 100%;
-  background-color: white;
+  background-color: #f0e0fa;
   font-size: 1.2vw;
 }
 
@@ -34,7 +34,8 @@
 
 .skills-table td:first-child {
   font-weight: bold;
-  background-color: rgb(111, 105, 105);
+  background-color: #e6beff;
+  color: black;
 }
 
 .small-image {

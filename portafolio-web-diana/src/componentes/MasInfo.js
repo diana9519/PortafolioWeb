@@ -8,7 +8,7 @@ const MasInfo = () => {
     <div className={styles.masInfoContainer}>
       <div className={styles.titleContainer}>
         <div className={styles.titleLine}></div>
-        <h1 className={styles.titleText}>Más Información</h1>
+        <h1 className={styles.titleText}>Contáctame </h1>
       </div>
       <div className={styles.masInfoLinks}>
         <a

@@ -9,7 +9,7 @@ import proyecto41 from "../assets/proyectos/p41.png";
 const DetalleProyecto = ({ proyecto, onClose }) => {
   const informacionProyecto1 = {
     descripcion:
-      "Aplicación de escritorio y móvil utilizando una arquitectura en capas para el envío de notificaciones de una sucursal a otras en situaciones de emergencia.",
+      "Aplicación móvil y de escritorio utilizando una arquitectura en capas para el envío de notificaciones de una sucursal a otras en situaciones de emergencia. Este sistema permite que el proceso de pedir algún tipo de ayuda sea mucho más rápido ya que solo se tendría que iniciar sesión y enviar la alerta evitándose así de llamar a un número de emergencia que puede tornarse muy demoroso ya que suelen realizar muchas preguntas. ",
     herramientas: [
       "Visual Studio Community",
       "Microsoft Sql Server",
@@ -27,7 +27,7 @@ const DetalleProyecto = ({ proyecto, onClose }) => {
 
   const informacionProyecto2 = {
     descripcion:
-      "Sistema de amortización desarrollado para que sea funcional tanto para el sistema alemán y para el sistema francés el cual genera un reporte.",
+      "Es una aplicación desarrollada para ser utilizada en el ámbito financiero y contable para planificar el pago de una deuda a lo largo del tiempo. Este sistema cuenta con dos sistemas de amortización, el Alemán y el Francés.",
     herramientas: [
       "PHP",
       "CSS",
@@ -48,10 +48,13 @@ const DetalleProyecto = ({ proyecto, onClose }) => {
 
   const informacionProyecto3 = {
     descripcion:
-      "Sistema que permite la gestión y venta de pasajes a usuarios de buses interprovinciales en Ecuador. La presente aplicación web tiene como propósito proporcionar la administración de la información de cooperativas y frecuencias a los usuarios de la Agencia Nacional de Tránsito ecuatoriana.",
-    herramientas: ["servidor Apache", "Xampp", "php", "javascript", "ajax"],
+      "Sistema que permite la gestión y venta de pasajes a usuarios de buses interprovinciales en Ecuador. La presente esta pensada para cuatro usuarios diferentes, la primera aplicación web tiene como propósito proporcionar la administración de la información de cooperativas y frecuencias a los usuarios de la Agencia Nacional de Tránsito ecuatoriana. La segunda aplicación web tiene como propósito proporcionar la administración de la información de buses, frecuencias y ventas de una cooperativa. La primera aplicación móvil tiene como finalidad facilitar al conductor o encargado del bus la gestión de la validación y visualización de la información de los pasajeros según el viaje. Y finalmente la segunda aplicación móvil tiene como propósito brindar al usuario la facilidad de comprar boletos de acuerdo a sus necesidades.   ",
+    herramientas: ["Servidor Apache", "Xampp", "PHP", "javaScript", "Ajax"],
     gitRepo: "https://github.com/diana9519/ProyectoDasBusesAdministrador.git",
-    imagenes: [{ titulo: "Ventana Principal", imagen: proyecto31 }],
+    gitRepo0: "https://github.com/Eldinosaur/ProyectoDASBusesOficinista.git",
+    gitRepo1: "https://github.com/Keybrish/ProyectoAppBusesPasajero.git",
+    gitRepo2: "https://github.com/Keybrish/ProyectoAppBusesSocio.git",
+    imagenes: [{ titulo: "Ventana principal de la aplicación web para el administrador", imagen: proyecto31 }],
   };
 
   const informacionProyecto4 = {
@@ -233,7 +236,8 @@ const DetalleProyecto = ({ proyecto, onClose }) => {
             </div>
             <div className={styles.projectLinks}>
               <h3 className={styles.responsiveSubtitle}>
-                Acceso al repositorio de git:
+                Acceso al repositorio de git (Aplicación web para
+                Administradores):
               </h3>
               <a
                 href={informacionProyecto3.gitRepo}
@@ -242,6 +246,45 @@ const DetalleProyecto = ({ proyecto, onClose }) => {
                 className={styles.responsiveLink}
               >
                 {informacionProyecto3.gitRepo}
+              </a>
+            </div>
+            <div className={styles.projectLinks}>
+              <h3 className={styles.responsiveSubtitle}>
+                Acceso al repositorio de git (Aplicación web para Oficinistas):
+              </h3>
+              <a
+                href={informacionProyecto3.gitRepo0}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.responsiveLink}
+              >
+                {informacionProyecto3.gitRepo0}
+              </a>
+            </div>
+            <div className={styles.projectLinks}>
+              <h3 className={styles.responsiveSubtitle}>
+                Acceso al repositorio de git (Aplicación móvil para Socios):
+              </h3>
+              <a
+                href={informacionProyecto3.gitRepo1}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.responsiveLink}
+              >
+                {informacionProyecto3.gitRepo1}
+              </a>
+            </div>
+            <div className={styles.projectLinks}>
+              <h3 className={styles.responsiveSubtitle}>
+                Acceso al repositorio de git (Aplicación móvil para Pasajeros):
+              </h3>
+              <a
+                href={informacionProyecto3.gitRepo2}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.responsiveLink}
+              >
+                {informacionProyecto3.gitRepo2}
               </a>
             </div>
             <div className={styles.projectImages}>

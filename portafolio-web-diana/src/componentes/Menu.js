@@ -23,7 +23,7 @@ const MainContent = () => {
             <li onClick={() => mostrarSeccion("inicio")}>Inicio</li>
             <li onClick={() => mostrarSeccion("proyectos")}>Proyectos</li>
             <li onClick={() => mostrarSeccion("habilidades")}>Habilidades</li>
-            <li onClick={() => mostrarSeccion("info")}>Más Información</li>
+            <li onClick={() => mostrarSeccion("info")}>Contáctame</li>
           </ul>
         </nav>
       </div>

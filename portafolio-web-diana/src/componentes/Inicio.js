@@ -6,7 +6,7 @@ import Menu from "./Menu";
 const Inicio = () => {
   const [mostrarMenu, setMostrarMenu] = useState(false);
   const [textToShow, setTextToShow] = useState("");
-  const text = "Soy Diana Pinchao ...";
+  const text = "Hola, soy Diana Pinchao ...";
   const delay = 100;
   const pauseTime = 2000;
 
